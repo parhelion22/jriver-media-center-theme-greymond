@@ -1,0 +1,235 @@
+<MJMS version="3.0">
+  <SKIN Name="Greyleigh" Author="Blue Card" About="Theme based on GTK theme Raleigh" />
+
+  <ART>
+	<Entry Name="ActionBarNavigation" Bitmap="" />
+	<Entry Name="AutomaticPlaylistBackground" Bitmap="" />
+	<Entry Name="DropHere" Bitmap="" />
+	<Entry Name="OptionsTree" Bitmap="" />
+	<Entry Name="SmallIcons" Bitmap="SmallIcons.png" />
+  </ART>
+
+  <MAINFRAME>
+    <Data MinimumWidth="640" MinimumHeight="480" />
+    <Entry Name="LeftBorder" Bitmap="MainFrame_LeftBorder.png" Margins="0,0,0,0" />
+    <Entry Name="RightBorder" Bitmap="MainFrame_RightBorder.png" Margins="0,0,0,0" />
+    <Entry Name="TopBorder" Bitmap="MainFrame_TopBorder.png" Margins="140,49,8,8" />
+    <Entry Name="BottomBorder" Bitmap="MainFrame_BottomBorder.png" Margins="55,6,55,6"/>    
+    <Entry Name="CloseButton" Bitmap="Close.png" NumberImages="3" Alignment="2" OffsetX="-5" OffsetY="6" />    
+    <Entry Name="MaximizeButton" Bitmap="Maximize.png" NumberImages="3" Alignment="2" OffsetX="-23" OffsetY="6" />
+    <Entry Name="RestoreButton" Bitmap="Restore.png" NumberImages="3" Alignment="2" OffsetX="-23" OffsetY="6" />
+    <Entry Name="MinimizeButton" Bitmap="Minimize.png" NumberImages="3" Alignment="2" OffsetX="-39" OffsetY="6" />
+    <Entry Name="Splitter" Face3DColor="CCC9C2" Shadow3DColor="938E84" Hilight3DColor="FFFFFF" />
+    <Entry Name="SlimPlayer" Bitmap="SlimPlayer.png" Columns="6,?-Flex,6" />
+    <Entry Name="FullscreenPlayer" Bitmap="FullscreenPlayer.png" Columns="2,?-Flex,9" Rows="2,?-Flex,2"/>
+  </MAINFRAME>
+
+  <PLAYERBAR>
+    <Data AllowEnlargeForFont="1" />
+    <Entry Name="Display" Bitmap="PlayerBar_Display.png" Margins="2,2,2,2">
+      <Data Style="1" />
+      <Colors TitleText="000000" StatusText="000000" />
+      <DisplayFont TitleSize="120" TitleWeight="800" StatusSize="100" StatusWeight="400" />
+    </Entry>
+    <Entry Name="PositionSlider" Bitmap="PlayerBar_SliderPos.png" Columns="1,?-Flex,1" Rows="?-Flex"/>
+    <Entry Name="PositionSliderFront" Bitmap="PlayerBar_SliderPosFront.png" Columns="4,?-Flex,4" Rows="?-Flex" />
+    <Entry Name="PositionSliderThumb" Bitmap="PlayerBar_SliderPosThumb.png" NumberImages="4" />
+    <Entry Name="VolumeSlider" Bitmap="PlayerBar_SliderVol.png" Columns="1,?-Flex,1" Rows="10,?-Flex,10" />
+    <Entry Name="VolumeSliderFront" Bitmap="PlayerBar_SliderVolFront.png" Columns="4,?-Flex,4" Rows="?-Flex" />
+    <Entry Name="VolumeSliderThumb" Bitmap="PlayerBar_SliderVolThumb.png" NumberImages="4"/>
+    <Entry Name="PlayButton" Bitmap="PlayerBar_PlayButton.png" NumberImages="3" />
+    <Entry Name="StopButton" Bitmap="PlayerBar_StopButton.png" NumberImages="3" />
+    <Entry Name="PauseButton" Bitmap="PlayerBar_PauseButton.png" NumberImages="3" />
+    <Entry Name="NextButton" Bitmap="PlayerBar_NextButton.png" NumberImages="3" />
+    <Entry Name="PreviousButton" Bitmap="PlayerBar_PrevButton.png" NumberImages="3" />
+    <Entry Name="Search" Bitmap="PlayerBar_Search.png" Margins="2,2,2,2" OffsetY="51" >
+      <Colors Text="000000" SelectedText="FFFFFF" SelectedBack="4B6983" />
+    </Entry>
+    
+    <Entry Name="SearchMenuButton" Bitmap="PlayerBar_SearchButton.png" NumberImages="1" />
+    <Entry Name="SearchClearButton" Bitmap="Search_Clear.png" NumberImages="3" />
+      
+    <Entry Name="MediaMode" Bitmap="" OffsetY="0" />
+    <Entry Name="ShuffleButton" Bitmap="PlayerBar_ShButton.png" NumberImages="3" />
+    <Entry Name="ShuffleOffButton" Bitmap="PlayerBar_ShOffButton.png" NumberImages="3" />
+    <Entry Name="ContinuousButton" Bitmap="PlayerBar_ContButton.png"  NumberImages="3" />
+    <Entry Name="ContinuousOffButton" Bitmap="PlayerBar_ContOffButton.png" NumberImages="3" />
+    <Entry Name="ContinuousSongButton" Bitmap="PlayerBar_ContSongButton.png" NumberImages="3" />
+    <Entry Name="DSPButton" Bitmap="PlayerBar_DSPButton.png" NumberImages="3" />
+    <Entry Name="DSPDirectButton" Bitmap="PlayerBar_DSPDirectButton.png" NumberImages="3" />
+    <Entry Name="MuteButton" Bitmap="PlayerBar_MuteButton.png"  NumberImages="3"/>
+    <Entry Name="MuteOffButton" Bitmap="PlayerBar_MuteOffButton.png" NumberImages="3" />
+  </PLAYERBAR>
+
+  <TOOLBARS>
+    <Colors InactiveBlend="00ff00" />
+    <Entry Name="StatusBar" TextColor="000000" />
+    <Entry Name="TopBar" Alignment="0" OffsetX="8" OffsetY="26" >
+      <Colors Text="000000" HilightText="000000" SelectedText="000000" Separator="938E84" />
+    </Entry>
+    <Entry Name="BottomBar" >
+      <Colors Text="000000" HilightText="000000" SelectedText="FFFFFF" Separator="938E84" />
+    </Entry>
+  </TOOLBARS>
+
+  <ACTIONWINDOW>
+    <Colors Text="FFFFFF" ActiveText="FFFFFF" Back="FFFFFF" ListBack="CCC9C2" ListText="000000" />
+    <Entry Name="Background" Bitmap="ActionWindow_Background.png" Margins="2,2,2,2" InternalMargins="4,4,4,4" DrawMode="REGION_B_STRETCH,REGION_H_STRETCH,REGION_D_STRETCH,REGION_E_VSTRETCH,REGION_F_STRETCH"/>
+    <Entry Name="Template" Bitmap="ActionWindow_Template.png" Margins="0,0,0,0" InternalMargins="2,2,2,0" VerticalSpacing="2" HeaderHeight="16" HeaderOnly="1" BelowHeaderMargin="2" />
+    <Entry Name="Back" Bitmap="ActionWindow_Back.png" Margins="2,2,2,2" NumberImages="3" />
+    <Entry Name="Close" Bitmap="ActionWindow_Close.png" Margins="2,2,2,2" NumberImages="3" />
+    <Entry Name="Tools" Bitmap="ActionWindow_Tools.png" Margins="2,2,2,2" NumberImages="3" />
+    <Entry Name="Restore" Bitmap="ActionWindow_Restore.png" Margins="2,2,2,2" NumberImages="3" />
+    <Entry Name="Minimize" Bitmap="ActionWindow_Minimize.png" Margins="2,2,2,2" NumberImages="3" />
+  </ACTIONWINDOW>
+
+  <FRAME>
+    <Data BorderResizeForText="1" BorderTopBottomLarger="1" />
+    <Colors Text="000000" DisabledText="8F8D88" Face3D="CCC9C2" Shadow3D="938E84" Hilight3D="FFFFFF"/>
+
+    <Entry Name="CaptionArea" OffsetX="0" Alignment="0" OffsetY="3" TextLeftIndent="0" TextRightIndent="0" >
+      <Colors ActiveText="FFFFFF" InactiveText="CCC9C2" TextShadow="4B6983" />
+      <Font Facename="Tahoma" Size="8" Weight="1000" Italic="0" />
+    </Entry>
+	<Entry Name="Icon" Alignment="0" OffsetX="2" OffsetY="3" SizeX="16" SizeY="16" />
+	<Entry Name="CloseButton" Bitmap="Close.png" NumberImages="3" Alignment="2" OffsetX="-5" OffsetY="6" />    
+    <Entry Name="MaximizeButton" Bitmap="Maximize.png" NumberImages="3" Alignment="2" OffsetX="-23" OffsetY="6" />
+    <Entry Name="RestoreButton" Bitmap="Restore.png" NumberImages="3" Alignment="2" OffsetX="-23" OffsetY="6" />
+    <Entry Name="MinimizeButton" Bitmap="Minimize.png" NumberImages="3" Alignment="2" OffsetX="-39" OffsetY="6" />
+	<Entry Name="TopBorder" Bitmap="Frame_TopBorder.png" Margins="8,8,8,8"/>
+    <Entry Name="BottomBorder" Bitmap="Frame_BottomBorder.png" />
+    <Entry Name="LeftBorder" Bitmap="Frame_LeftBorder.png" />
+    <Entry Name="RightBorder" Bitmap="Frame_RightBorder.png" />
+
+    <Entry Name="Button" Bitmap="Frame_Button.png" Margins="2,2,2,2" NumberImages="4" DrawMode="REGION_B_STRETCH" >
+      <Colors PressedText="000000" OverText="000000" />
+    </Entry>
+    <Entry Name="DefaultButton" Bitmap="Frame_DefaultButton.png" Margins="2,2,2,2" NumberImages="4" DrawMode="REGION_B_STRETCH" >
+      <Colors PressedText="000000" OverText="000000" />
+    </Entry>
+    <Entry Name="DialogBack" BackColor="CCC9C2" />
+    <Entry Name="TextBox" />
+    <Entry Name="Edit" >
+      <Entry Name="Background" Bitmap="Frame_Edit.png" NumberImages="4" Margins="2,2,2,2" />
+      <Colors Text="000000" Back="FFFFFF" SelectText="FFFFFF" SelectedBack="4B6983" DisabledText="8F8D88" DisabledBack="E0DDD5"/>
+    </Entry>
+    <Entry Name="ComboBox" Bitmap="Frame_ComboBoxButton.png" NumberImages="4" Columns="2,?-Flex,9,?-Flex,2" Rows="2,?-Flex,5,?-Flex,2" >
+      <Data ArrowBorder="0" />
+      <Colors Text="000000" Back="FFFFFF" DisabledBack="f0f0f0" DisabledText="8F8D88" OverText="000000" OpenText="000000" />
+      <Entry Name="Background" Bitmap="Frame_ComboBoxBackground.png" NumberImages="4" Margins="2,2,2,2" />
+    </Entry>
+    <Entry Name="CheckBox" Bitmap="Frame_CheckBox.png" NumberImages="8" />
+    <Entry Name="RadioButton" Bitmap="Frame_RadioButton.png" NumberImages="8"/>
+    <Entry Name="OptionsList" >
+      <Colors Text="000000" Back="FFFFFF" Shadow="4B6983"/>
+    </Entry>
+    <Entry Name="FullScreenArrowsExpand" Bitmap="Frame_FullScreenArrowsExpand.png" NumberImages="1" />
+    <Entry Name="FullScreenArrowsCollapse" Bitmap="Frame_FullScreenArrowsCollapse.png" NumberImages="1" />
+  </FRAME>
+
+  <TREE>
+    <Colors Text="000000" Back="FFFFFF" SelectedText="FFFFFF" SelectedBack="4B6983" />
+    <Entry Name="Background" Bitmap="Tree_Background.png" NumberImages="1" />
+  </TREE>
+
+  <LIST>
+    <Colors Text="000000" Back="FFFFFF" SelectedText="FFFFFF" SelectedBack="4B6983" HotText="000000" Gridline="B8B5AF" />
+    <Entry Name="HeaderBar" Bitmap="List_HeaderBar.png" Margins="2,2,2,2" NumberImages="3" TextColor="000000" OverTextColor="FFFFFF" PressedTextColor="FFFFFF" />
+    <Entry Name="BrowseHeaderBar" Bitmap="List_BrowseHeaderBar.png" Margins="2,2,2,2" />
+    <Entry Name="Rating" Bitmap="List_Rating.png" NumberImages="3" />      
+      
+    <Entry Name="RatingClear" Bitmap="Search_Clear.png" NumberImages="3" Margins="0,0,0,0" />
+    <Entry Name="LinkButton" Bitmap="List_Button.png" NumberImages="3" Margins="0,0,0,0" />
+
+    <Entry Name="GroupHeader" Bitmap="List_GroupHeader.png" NumberImages="1" Columns="2,?-Flex,2" Rows="2,?-Flex,2" />
+
+	<Entry Name="InPlaceFindToolbar" Bitmap="List_InPlaceFindToolbar.png" Margins="2,2,2,2" />
+  </LIST>
+
+  <MENU>
+    <Colors Text="000000" SelectedText="FFFFFF" SelectedBack="4B6983" Disabled="8F8D88" Separator="938E84" />
+    <Entry Name="Back" Bitmap="Menu_Back.png" Margins="3,3,3,3"/>
+  </MENU>
+
+  <PROGRESSBAR>
+    <Entry Name="Back" Bitmap="Progress_Back.png" Margins="1,1,1,1" />
+    <Entry Name="Front" Bitmap="Progress_Front.png" Margins="4,4,4,4" />
+  </PROGRESSBAR>
+
+  <GROUPBOX>
+    <Colors Text="000000" />
+	<Entry Name="CaptionArea" Bitmap="Groupbox_CaptionArea.png" Margins="0,7,0,0" />
+    <Entry Name="LeftBorder" Bitmap="Groupbox_LeftBorder.png" Margins="0,6,0,2" />
+    <Entry Name="RightBorder" Bitmap="Groupbox_RightBorder.png" Margins="0,6,0,2" />
+    <Entry Name="TopBorder" Bitmap="Groupbox_TopBorder.png" Margins="0,7,0,0" />
+    <Entry Name="BottomBorder" Bitmap="Groupbox_BottomBorder.png" Margins="0,0,0,2" />
+  </GROUPBOX>
+
+  <TAB>
+    <Colors Text="000000" OverText="000000" SelectedText="000000" />
+    <Entry Name="Button" Bitmap="Tab_Button.png" Margins="2,2,2,2" NumberImages="3" />
+    <Entry Name="LeftBorder" Bitmap="Tab_LeftBorder.png" Margins="3,5,0,3" />
+    <Entry Name="RightBorder" Bitmap="Tab_RightBorder.png" Margins="0,5,5,3" />
+    <Entry Name="TopBorder" Bitmap="Tab_TopBorder.png" Margins="0,0,0,3" />
+    <Entry Name="BottomBorder" Bitmap="Tab_BottomBorder.png" Margins="0,0,0,3" />
+  </TAB>
+
+  <SLIDER>
+    <Entry Name="HorizontalBackground" Bitmap="Slider_HorizontalBackground.png" NumberImages="1" Margins="1,1,1,1" />
+    <Entry Name="HorizontalHandle" Bitmap="Slider_HorizontalHandle.png" NumberImages="4" Margins="1,1,1,1" />
+    <Entry Name="VerticalBackground" Bitmap="Slider_VerticalBackground.png" NumberImages="1" Margins="1,1,1,1" />
+    <Entry Name="VerticalHandle" Bitmap="Slider_VerticalHandle.png" NumberImages="4" Margins="1,1,1,1"/>
+  </SLIDER>
+
+  <UPDOWN>
+    <Entry Name="Up" Bitmap="UpDown_Up.png" NumberImages="4" Columns="1,?-Flex,5,?-Flex,1" Rows="1,?-Flex,3,?-Flex,1" />
+    <Entry Name="Down" Bitmap="UpDown_Down.png" NumberImages="4" Columns="1,?-Flex,5,?-Flex,1" Rows="1,?-Flex,3,?-Flex,1" />
+    <Entry Name="Left" Bitmap="UpDown_Left.png" NumberImages="4" Margins="1,1,1,1" />
+    <Entry Name="Right" Bitmap="UpDown_Right.png" NumberImages="4" Margins="1,1,1,1" />
+  </UPDOWN>
+
+  <SPLITTER>
+    <Data DefaultSize="6" />
+    <Entry Name="HorizontalBackground" Bitmap="Splitter_HorizontalBackground.png" Margins="1,1,1,1" />
+    <Entry Name="VerticalBackground" Bitmap="Splitter_VerticalBackground.png" Margins="1,1,1,1" />
+    <Entry Name="HorizontalHandle" Bitmap="Splitter_Horizontal.png" Margins="1,1,1,1" DrawMode="REGION_E_HTILE,REGION_E_VTILE" />
+    <Entry Name="VerticalHandle" Bitmap="Splitter_Vertical.png" Margins="1,1,1,1" DrawMode="REGION_E_HTILE,REGION_E_VTILE" />
+  </SPLITTER>
+
+  <SCROLLBAR>
+    <Entry Name="HorizontalLeftArrow" Bitmap="Scrollbar_HorizontalLeftArrow.png" NumberImages="4" Margins="2,2,2,2"/>
+    <Entry Name="HorizontalRightArrow" Bitmap="Scrollbar_HorizontalRightArrow.png" NumberImages="4" Margins="2,2,2,2"/>
+    <Entry Name="HorizontalHandle" Bitmap="Scrollbar_HorizontalHandle.png" NumberImages="4" Columns="3,?-Flex,3" Rows="3,?-Flex,3"/>
+    <Entry Name="HorizontalBackground" Bitmap="Scrollbar_HorizontalBackground.png" NumberImages="1" Margins="1,1,1,1" DrawMode="REGION_E_HTILE"/>
+    <Entry Name="VerticalUpArrow" Bitmap="Scrollbar_VerticalUpArrow.png" NumberImages="4" Margins="2,2,2,2" />
+    <Entry Name="VerticalDownArrow" Bitmap="Scrollbar_VerticalDownArrow.png" NumberImages="4" Margins="2,2,2,2"/>
+    <Entry Name="VerticalHandle" Bitmap="Scrollbar_VerticalHandle.png" NumberImages="4" Columns="3,?-Flex,3" Rows="3,?-Flex,3" />
+    <Entry Name="VerticalBackground" Bitmap="Scrollbar_VerticalBackground.png" NumberImages="1" Margins="1,1,1,1" DrawMode="REGION_E_VTILE"/>
+    <Entry Name="Stump" Bitmap="Scrollbar_Stump.png" Margins="2,2,2,2" Scale="4" />
+  </SCROLLBAR>
+
+  <!-- NOTE: VIEWHEADER is where you'll fint the split view tabs, links etc. It also affects the header you'll get when you for instance double click an album in album views.-->
+  <VIEWHEADER>
+	<Colors HeaderBackground="CCC9C2" HeaderText="000000" HeaderHotText="000000" ActiveTabText="000000" Background="CCC9C2" Text="000000" />
+  </VIEWHEADER>
+
+  <SPLITVIEWTAB>
+    <Data InternalMarginLeft="6" InternalMarginRight="6" OverlapLeft="1" OverlapRight="1"
+      ImageToTextSpacing="4" FirstItemTextOffset="0" MakeFinalItemSameWidth="1" />
+    <Entry Name="Button" Bitmap="SplitViewTab_Button.png" NumberImages="3" Columns="2,?-Flex,2" Rows="3,?-Flex,3"/>
+    <Entry Name="BorderRow" Bitmap="SplitViewTab_BorderRow.png" NumberImages="1" Margins="1,1,1,1" />
+    <Entry Name="Close" Bitmap="SplitViewTab_Close.png" NumberImages="3"/>
+  </SPLITVIEWTAB>
+	
+  <TAGWINDOW>
+	<Colors Text="000000" Selection="4B6983"/>
+	<Entry Name="Group" Bitmap="TagWindow_Group.png" NumberImages="2" Columns="14,?-Flex,2" Rows="2,?-Flex,2" />
+	<Entry Name="Field" Bitmap="TagWindow_Field.png" NumberImages="1" Rows="?-Flex" />
+	<Entry Name="FieldLabel" Bitmap="TagWindow_FieldLabel.png" NumberImages="1" Columns="?-Flex" Rows="?-Flex" />
+  </TAGWINDOW>
+
+  <SCALE>
+    <Data Enabled="1" />
+  </SCALE>
+
+</MJMS>
