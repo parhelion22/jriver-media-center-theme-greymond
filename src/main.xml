@@ -1,5 +1,5 @@
 <MJMS version="3.0">
-  <SKIN Name="Greyleigh" Author="Blue Card" About="Theme based on GTK theme Raleigh" />
+  <SKIN Name="Greyleigh" Author="parhelion22" About="Theme based on the classic Raleigh GTK theme" />
 
   <ART>
 	<Entry Name="ActionBarNavigation" Bitmap="" />
