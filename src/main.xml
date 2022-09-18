@@ -28,7 +28,7 @@
     <Data AllowEnlargeForFont="1" />
     <Entry Name="Display" Bitmap="PlayerBar_Display.png" Margins="2,2,2,2">
       <Data Style="1" />
-      <Colors TitleText="000000" StatusText="000000" />
+      <Colors TitleText="000000" StatusText="000000" WaveformBarA="B8B5AF" WaveformBarB="4B6983" />	  
       <DisplayFont TitleSize="120" TitleWeight="800" StatusSize="100" StatusWeight="400" />
     </Entry>
     <Entry Name="PositionSlider" Bitmap="PlayerBar_SliderPos.png" Columns="1,?-Flex,1" Rows="?-Flex"/>
