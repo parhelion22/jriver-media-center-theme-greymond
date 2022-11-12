@@ -1,6 +1,6 @@
 # Greyleigh theme for JRiver Media Center
 
-![Screenshot](https://github.com/parhelion22/jriver-media-center-theme-greyleigh/blob/master/Screenshot.png)
+![Screenshot](https://github.com/parhelion22/jriver-media-center-theme-greyleigh/blob/main/Screenshot.png)
 
 Theme for JRiver Media Center based on the classic Raleigh theme.
 
